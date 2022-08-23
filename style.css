@@ -1,0 +1,18 @@
+
+#container{
+    width: 125px;
+    background-color: blue;    
+}   
+
+.tamanho{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: green;
+    position:relative;
+}
+
+.num{
+    width: 60px;
+    height: 60px;
+ }
