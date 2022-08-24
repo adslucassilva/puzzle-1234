@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle</title>
+    <!-- <link rel="stylesheet" href="puzzle/style.css">
+    <script src="puzzle/script.js"></script> -->
+</head>
+<style>
+ #container{
+    width: 130px;
+    background-color: black;    
+}   
+
+.tamanho{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: gray;
+    position:relative;
+    border-radius: 5px;
+}
+
+.num{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+ }
+</style>
+<body>
+    <div id="container">
+        <div id="d1"class="num1 tamanho" onclick="Num1()"><span class="num">1</span></div>
+        <div id="d2"class="num2 tamanho" onclick="Num2()"><span class="num">2</span></div>
+        <div id="d3"class="num3 tamanho" onclick="Num2()"><span class="num">3</span></div>
+        <div id="d4"class="num4 tamanho" onclick="Num2()"><span class="num">4</span></div>    
+    </div>
+<script>
+    function Num1(){
+    let v1 = document.getElementById("d1").innerText;
+    
+}
+</script>
+
+    
+</body>
+</html>
