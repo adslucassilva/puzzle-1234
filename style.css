@@ -1,18 +1,23 @@
 
-#container{
-    width: 125px;
-    background-color: blue;    
+ #container{
+    width: 130px;
+    background-color: black;    
 }   
 
 .tamanho{
     display: inline-block;
     width: 60px;
     height: 60px;
-    background-color: green;
     position:relative;
+    border-radius: 5px;
 }
 
-.num{
+.cor{
+    background-color: gray;
+}
+
+.cel{
     width: 60px;
     height: 60px;
+    position: center;
  }
